@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gomoku.Application.Contracts\Gomoku.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Gomoku.Application\Gomoku.Application.csproj" />
+    <ProjectReference Include="..\Gomoku.Domain\Gomoku.Domain.csproj" />
+    <ProjectReference Include="..\Gomoku.Helpers\Gomoku.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
